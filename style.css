@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgba(148, 192, 29, 0.918);
+    text-align: center;
+    width: 50%;
+    margin: 10%;
+    position: absolute;
+}
+
+.container
+{
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+}
+.form
+{
+    text-align: center;
+    border: 1px ;
+    padding: 50px;
+}
+.campo
+{
+    background-color:rgba(228, 207, 207, 0.377);
+    padding: 5px;
+    margin: 5px;
+    border: solid transparent;
+    text-transform: capitalize;
+    border-radius: 6px;
+}
+p
+{
+    font-size: 2rem;
+}
+.box
+{
+    margin-top: 25px;
+}
+.btn
+{
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    border: solid transparent;
+    background-color: #0d10da;
+    color: #ffffff;
+    border-radius: 6px;
+}
