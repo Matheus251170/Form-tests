@@ -1,0 +1,71 @@
+body
+{
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100px;
+    justify-content: center;
+    background-image: url("images.jpg");
+    background-attachment:fixed;
+}
+
+.form
+{
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-top: 50%;
+}
+
+.title
+{
+    padding: 16px;
+}
+
+.campo
+{
+    border-radius: 6px;
+    width: 70%;
+    padding: 12px 12px;
+    margin: 8px auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.btm
+{
+    padding: 12px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 70%;
+    border-radius: 7px;
+    margin: 16px;
+    cursor: pointer;
+}
+button:hover
+{
+    opacity: 0.8;
+    background-color: #000005;
+}
+
+.under
+{
+    margin-top: 15px;
+    padding: 20px;
+    font-size: 12px;
+    color: #fffffc
+}
+a:link
+{
+    color: green;
+    text-decoration: none;
+}
+a:visited
+{
+    color: cyan;
+    text-decoration: underline;
+}
+a:hover
+{
+    opacity: 0.8;
+}
